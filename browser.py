@@ -90,8 +90,8 @@ class BrowserFrame(wx.Frame):
             self.urlentry.SetFocus()
 
 
-        if yPos < 0:
-            yPos = 0
+        if self.yPos < 0:
+            self.yPos = 0
 
 if __name__ == "__main__":
     app = wx.App() 
